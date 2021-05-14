@@ -1,0 +1,41 @@
+{
+    "name": "luisalberto/checkdigit-algorithms",
+    "description": "Check Digit Algorithms",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "damm-algorithm",
+        "lunh-algorithm",
+        "verhoeff-algorithm",
+        "checkdigit"
+    ],
+    "homepage": "https://github.com/aochoae/checkdigit-algorithms-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis A. Ochoa",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuisAlberto\\CheckDigit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LuisAlberto\\CheckDigit\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit --bootstrap vendor/autoload.php --coverage-html build/coverage"
+        ]
+    }
+}
