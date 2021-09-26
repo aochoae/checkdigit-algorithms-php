@@ -13,7 +13,7 @@ namespace LuisAlberto\CheckDigit;
  * @package LuisAlberto\CheckDigit
  * @since 1.0.0
  */
-class DammCheckDigit implements CheckDigitInterface
+final class DammCheckDigit implements CheckDigitInterface
 {
     use CheckDigitTrait;
 
@@ -56,9 +56,7 @@ class DammCheckDigit implements CheckDigitInterface
 
         for ($i = 0; $i < count($sequence); $i++) {
 
-            $col = $sequence[$i];
-
-            $lastDigit = self::TABLE[$row][$col];
+            $lastDigit = self::TABLE[$row][$sequence[$i]];
 
             $row = $lastDigit;
         }

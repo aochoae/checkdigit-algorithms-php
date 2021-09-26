@@ -13,7 +13,7 @@ namespace LuisAlberto\CheckDigit;
  * @package LuisAlberto\CheckDigit
  * @since 1.0.0
  */
-class LuhnCheckDigit implements CheckDigitInterface
+final class LuhnCheckDigit implements CheckDigitInterface
 {
     use CheckDigitTrait;
 
