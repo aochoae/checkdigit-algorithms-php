@@ -1,4 +1,5 @@
 # Check digit algorithms
+[![Build Status](https://app.travis-ci.com/aochoae/checkdigit-algorithms-php.svg?branch=main)](https://app.travis-ci.com/aochoae/checkdigit-algorithms-php)
 
 Algorithms:
 
