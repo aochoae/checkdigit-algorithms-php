@@ -13,7 +13,7 @@ Algorithms:
 
 ## Install
 
-    composer require luisalberto/checkdigit-algorithms:dev-main
+    composer require luisalberto/checkdigit-algorithms
 
 ## Usage
 
