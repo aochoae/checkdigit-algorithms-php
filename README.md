@@ -1,5 +1,4 @@
 # Check digit algorithms
-[![Build Status](https://app.travis-ci.com/aochoae/checkdigit-algorithms-php.svg?branch=main)](https://app.travis-ci.com/aochoae/checkdigit-algorithms-php)
 
 Algorithms:
 
@@ -26,6 +25,6 @@ Algorithms:
 
 ## License
 
-Copyright 2021 Luis A. Ochoa
+Copyright 2021, 2024 Luis A. Ochoa
 
 See [LICENSE](LICENSE) for the full license text.
