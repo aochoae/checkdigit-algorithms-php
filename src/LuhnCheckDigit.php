@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) Luis A. Ochoa
+ * @copyright Copyright (c) 2021, 2024 Luis A. Ochoa
  * @since     1.0.0
  * @license   https://opensource.org/licenses/MIT MIT License
  */
