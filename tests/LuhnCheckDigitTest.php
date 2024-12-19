@@ -24,6 +24,12 @@ class LuhnCheckDigitTest extends TestCase
         $luhn = new LuhnCheckDigit();
         
         $this->assertEquals($luhn->generate("4872148"), "48721484");
+    }
+
+    public function testGenerate2()
+    {
+        $luhn = new LuhnCheckDigit();
+
         $this->assertEquals($luhn->generate("37185048010235"), "371850480102358");
     }
 
