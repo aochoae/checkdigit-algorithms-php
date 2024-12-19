@@ -1,5 +1,7 @@
 # Check digit algorithms
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/P8zYxsfE41FNrt2ohcdfya/KqeiFzsrrrSf2xZxQh6gvs/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/P8zYxsfE41FNrt2ohcdfya/KqeiFzsrrrSf2xZxQh6gvs/tree/main)
+
 Algorithms:
 
 * Damm algorithm
