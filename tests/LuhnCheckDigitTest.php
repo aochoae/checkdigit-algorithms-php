@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) Luis A. Ochoa
+ * @copyright Copyright (c) 2021, 2024 Luis A. Ochoa
  * @since     1.0.0
  * @license   https://opensource.org/licenses/MIT MIT License
  */
@@ -24,6 +24,13 @@ class LuhnCheckDigitTest extends TestCase
         $luhn = new LuhnCheckDigit();
         
         $this->assertEquals($luhn->generate("4872148"), "48721484");
+    }
+
+    public function testGenerate2()
+    {
+        $luhn = new LuhnCheckDigit();
+
+        $this->assertEquals($luhn->generate("37185048010235"), "371850480102358");
     }
 
     public function testIsValidTrue()

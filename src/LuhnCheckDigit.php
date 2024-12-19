@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) Luis A. Ochoa
+ * @copyright Copyright (c) 2021, 2024 Luis A. Ochoa
  * @since     1.0.0
  * @license   https://opensource.org/licenses/MIT MIT License
  */
@@ -52,10 +52,10 @@ final class LuhnCheckDigit implements CheckDigitInterface
      */
     private function compute(array $sequence)
     {
-        $newSequence = [];
+        $newSequence = $sequence;
 
-        for ($i = 0; $i < count($sequence); $i++) {
-            $newSequence[$i] = ($i % 2 === 0) ? self::SUBSTITUTE[$sequence[$i]] : $sequence[$i];
+        for ($i = count($sequence) - 1; $i >= 0; $i -= 2) {
+            $newSequence[$i] = self::SUBSTITUTE[$sequence[$i]];
         }
 
         $summation = array_sum($newSequence);
